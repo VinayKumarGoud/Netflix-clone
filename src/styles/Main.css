@@ -1,0 +1,253 @@
+.main_nav{
+    width:100%;
+    background-color: #0f0f0f;
+    height: 70px;
+
+}
+
+.main_nav>a>img{
+    width: 100px;
+    height: 60px;
+    margin-left: 3%;
+}
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -42px;
+
+}
+.left_nav_links{
+   margin-left: 10%;
+}
+.left_nav_links>a{
+   margin-left: 20px;
+   text-decoration: none;
+   font-size: 14px;
+   color: white;
+   cursor: pointer;
+}
+.left_nav_links>a:hover{
+    text-decoration: underline;
+}
+.right_nav_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4%;
+}
+.search{
+    width: 22px;
+    height: 22px;
+    
+}
+.bell{
+    width: 28px;
+    height: 28px;
+    margin-left: 20px;
+}
+.profile{
+    width: 28px;
+    height: 28px;
+    margin-left: 20px;
+}
+.triangle{
+    width: 15px;
+    height: 10px;
+    margin-left: 10px;
+}
+.triangle:hover{
+    transform:   rotate(180deg);
+}
+.right_nav_links a{
+    margin-left: 20px;
+   text-decoration: none;
+   font-size: 14px;
+   color: white;
+   cursor: pointer;
+   
+}
+.toggle_nav_links{
+    display: flex;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    justify-content: space-around;
+}
+
+.toggle_nav_links a{
+    text-decoration: none;
+   font-size: 14px;
+   color: white;
+   cursor: pointer; 
+}
+.toggle_items{
+    display: flex;
+    
+}
+.toggle_items h3{
+    font-size: 14px;
+   color: white;
+   cursor: pointer; 
+   display: none;
+}
+
+.toggle_items img{
+   display: none;
+}
+@media screen and (max-width:1024px){
+    .left_nav_links{
+        margin-left: 12%;
+     }
+}
+@media screen and (max-width:890px){
+    .main_nav{
+        height: 60px;
+    }
+    .left_nav_links{
+        display: none;
+    }
+    .toggle_items{
+        margin-left: 17%;
+    }
+    .toggle_items h3{
+       display: block;
+      margin-top: -5px;
+    }
+    
+    .toggle_items img{
+       display: block;
+    }
+.toggle_nav_links{
+    margin-left: 12%;
+    margin-top: 0.5%;
+}
+
+}
+
+@media screen and (max-width:700px){
+    .toggle_items{
+        margin-left: 20%;
+    }
+    .search{
+        width: 18px;
+        height: 18px;
+        
+    }
+    .bell{
+        width: 22px;
+        height: 22px;
+        margin-left: 20px;
+    }
+    .profile{
+        width: 22px;
+        height: 22px;
+        margin-left: 20px;
+    }
+    .triangle{
+        width: 10px;
+        height: 8px;
+        margin-left: 10px;
+    }
+    .main_nav>a>img{
+        width: 80px;
+        height: 60px;
+        margin-left: 3%;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .toggle_items{
+        margin-left: 24%;
+    }
+    .search{
+        width: 18px;
+        height: 18px;
+        
+    }
+    .bell{
+        width: 22px;
+        height: 22px;
+        margin-left: 10px;
+    }
+    .profile{
+        width: 22px;
+        height: 22px;
+        margin-left: 10px;
+    }
+    .triangle{
+        width: 10px;
+        height: 8px;
+        margin-left: 10px;
+    }
+    .main_nav>a>img{
+        width: 80px;
+        height: 60px;
+        margin-left: 3%;
+    }
+    .right_nav_links a{
+        margin-left: 10px; 
+    }
+}
+.nav_toggle_div{
+    display: flex;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    width: 200px;
+    height: 440px;
+    justify-content: space-around;
+    margin-left: 85%;
+    margin-top: 5px;
+}
+.nav_toggle_div>div{
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav_toggle_div>div>a>img{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+}
+.nav_toggle_div>div>h3{
+    text-align: center;
+    margin-left: 15px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+.toggle_line{
+    background-color: white;
+    height: 0.2px;
+}
+
+.nav_toggle_div>h4{
+    color: white;
+    margin-left: 15px;
+    font-size: 14px;
+}
+@media screen and (max-width:1024px){
+
+    .nav_toggle_div{
+        margin-left: 77%;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .nav_toggle_div{
+        margin-left: 70%;
+    }
+}
+@media screen and (max-width:480px){
+
+    .nav_toggle_div{
+        width: 160px;
+        margin-left: 60%;
+    }
+}

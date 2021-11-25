@@ -1,0 +1,191 @@
+.signin_img {
+    width: 100vw;
+    height: 140vh;
+    margin-bottom: -120px;
+}
+ #hover{
+    width: 100vw;
+    height: 180vh;
+}
+.navlogo img {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
+.signin_box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width:400px;
+    height: auto;
+    background: transparent;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.signin_box h1 {
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.signin_box input {
+    background-color: #333;
+    border-radius: 4px;
+    border: 0;
+    color: #8C8C8C;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 12%;
+}
+
+.signin_box button {
+    background-color: #E50914;
+    border-radius: 4px;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 12%;
+}
+
+.verify {
+    display: flex;
+    justify-content: space-between;
+}
+
+.verify>div {
+    display: flex;
+    margin-left: 11%;
+    margin-top: 15px;
+}
+
+.verify img {
+    height: 17px;
+    width: 17px;
+}
+
+.verify h4 {
+
+    color: #b3b3b3;
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.verify h5 {
+    color: #b3b3b3;
+    font-size: 13px;
+    margin-right: 16%;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.facebook {
+    display: flex;
+    margin-top: 50px;
+}
+
+.facebook img {
+    height: 20px;
+    width: 20px;
+    margin-left: 12%;
+}
+
+.facebook h3{
+    color: #737373;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.netflix{
+    display: flex;
+    margin-left: 12%;
+    margin-top: 16px;
+}
+.netflix h2{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.netflix a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.netflix a:hover{
+    text-decoration: underline;
+}
+
+.capcha h4{
+    margin-top: 11px;
+    font-size: 13px;
+    color: #8c8c8c;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 18%;
+}
+.signin_footer{
+    height: auto;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    color: yellow;
+    top: 121%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 20%;
+    margin-left: 8%;
+}
+.signin_footer h3{
+    color: #757575;
+    font-size: 16px;
+    padding-top: 4%;
+    margin-left: 8%;
+    margin-bottom: 40px;
+}
+.links a{
+    text-decoration: none;
+  color: #757575;
+  cursor: pointer;
+  font-size: 13px;
+
+}
+
+.signin_footer select{
+    height: 47px;
+    width: 121px;
+    border: 1px solid #333;
+    padding: 0.25rem;
+    background-color: #000000;
+    color: white;
+    margin-left: 12%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
